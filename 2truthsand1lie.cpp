@@ -1,3 +1,4 @@
+
 #include<bits/stdc++.h>
 #include<fstream>
 using namespace std;
@@ -118,6 +119,14 @@ cin>>ans;
 if(ans==liechecker)cout<<"Lessgoo seems like u are a TRUTH WIZARD and yet u fall victim to the lies told by your girl <3 \n"<<endl;
 else{
     cout<<"-1 LPA\n the LIE is >>"<<endl;
+    cout<<lie<<endl;
+}
+cout << "Do you want to play again? (y/n): ";
+    cin >> choice;
+    }
+
+return 0;
+}
     cout<<lie<<endl;
 }
 cout << "Do you want to play again? (y/n): ";
